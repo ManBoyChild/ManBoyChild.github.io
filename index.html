@@ -5,44 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" async></script>
-    <title>Document</title>
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
 </head>
 <body>
-    <h1 class="title">First to 5 wins! Which do you chose?</h1>
-
-    <div class="flex">
-        <button class="choices rock">✊</button>
-        <button class="choices paper">🤚</button>
-        <button class="choices scissors">✌️</button>
-    </div>
-
-    <div class="displayChoice">
-        <div class="playerChoice">You chose: 
-            <span class="playerResult"></span>
-        </div>
-        <div class="computerChoice">The computer chose: 
-            <span class="computerResult"></span>
-        </div>
-    </div>
-
-    <div class="results"></div>
-
-    <div class="score">
-        <div class="playerScore">Wins: 
-            <span class="playerScoreCount"></span>
-        </div>
-        <div class="computerScore">Loses:
-            <span class="computerScoreCount"></span>
-        </div>
-        <div class="draws">Draws:
-            <span class="drawScoreCount"></span>
+    <div class="layout">
+        <div class="container">
+            <div id="display" class="display">0</div>
+            <button class="add function">+</button>
+            <button class="subtract function">-</button>
+            <button class="multiply function">x</button>
+            <button class="divide function">/</button>
+            <button class="nine number">9</button>
+            <button class="eight number">8</button>
+            <button class="seven number">7</button>
+            <button class="correct utility">CORR</button>
+            <button class="six number">6</button>
+            <button class="five number">5</button>
+            <button class="four number">4</button>
+            <button class="clear utility">CE</button>
+            <button class="equals utility">=</button>
+            <button class="three number">3</button>
+            <button class="two number">2</button>
+            <button class="one number">1</button>
+            <button class="zero number">0</button>
+            <button class="decimal utility">.</button>
         </div>
     </div>
-
-    <div class="bigWin"></div>
-
-    <button class="playAgain">Reset/Play again?</button>
     
 </body>
 </html>
