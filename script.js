@@ -63,6 +63,7 @@ function updateOperator (e) {
     
     buttonCheck();
 
+    console.log(display.innerText, prev, chosenOperator, curr);
     return chosenOperator;
 }
 
@@ -117,6 +118,7 @@ function updateDisplay(e) {
 
     buttonCheck();
     
+    console.log(display.innerText.length, prev, chosenOperator, curr);
 }
 
 //ADDING NUMBER AND DECIMAL KEYBOARD FUNCTIONALITY
@@ -321,6 +323,7 @@ function equalsOperation() {
 
     buttonCheck();
 
+    console.log(display.innerText, prev, chosenOperator, curr);
     return equalsValue;
 }
 
@@ -348,6 +351,7 @@ function clearHistory () {
     prev = 0;
     curr = 0;
     chosenOperator = "";
+    console.log(display.innerText, prev, chosenOperator, curr);
 
     buttonCheck();
 
